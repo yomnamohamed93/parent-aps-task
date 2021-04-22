@@ -24,7 +24,7 @@ class UsersController extends Controller
             $item['balance']=$item['parentAmount'];
             $item['email']=$item['parentEmail'];
             $item['id']=$item['parentIdentification'];
-            $item['created_at']=$item['registerationDate'];
+            $item['created_at']=date("d/m/Y", strtotime($item['registerationDate']));
             unset($item['parentEmail'],$item['registerationDate'],$item['statusCode'],$item['parentIdentification'],$item['parentAmount']);
         }
         foreach($dataFromY as &$item){
