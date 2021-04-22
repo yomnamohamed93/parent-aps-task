@@ -5,8 +5,8 @@ Laravel version "5.8".
 ### Installation and configuration steps
 
  <pre> git clone https://github.com/yomnamohamed93/parent-aps-task.git </pre>   
- <pre>  cd parent-aps-task </pre>
- <pre>  composer install </pre>
+ <pre> cd parent-aps-task </pre>
+ <pre> composer install </pre>
  <pre> cp .env.example .env </pre>
  <pre> php artisan key:generate </pre>
 Start the local development server
