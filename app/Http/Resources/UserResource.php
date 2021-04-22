@@ -25,14 +25,4 @@ class UserResource extends JsonResource
         ];
     }
 
-    private function readStatus($statusCode)
-    {
-        if($statusCode==1 || $statusCode ==100){
-            return 'authorised';
-        }
-        else if($statusCode==1 || $statusCode ==100){
-            return 'decline';
-
-        }else return 'refunded';
-    }
 }
