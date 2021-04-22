@@ -12,6 +12,15 @@ Laravel version "5.8".
 Start the local development server
 
    <pre> php artisan serve </pre>
-  
-You can access daily news page at:
-<pre> http://localhost:8000/ </pre>
+# Testing API
+
+Users api can now be accessed through **GET** request at: 
+
+    http://localhost:8000/api/topRatedMovies
+    
+- No paramters are required for this api.</br> </br>
+***All the following parameters is sent as query string parameters***. </br>
+- You can filter by payment providers using parameter called **dataProvider** .
+- You can filter by statusCode using parameter called **statusCode** .
+- You can filter by currency using parameter called **currency** .
+- You can filter by amount range using parameters called **balanceMin** and **balanceMax** .
