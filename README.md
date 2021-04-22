@@ -16,7 +16,7 @@ Start the local development server
 
 Users api can now be accessed through **GET** request at: 
 
-    http://localhost:8000/api/topRatedMovies
+    http://localhost:8000/api/users
     
 - No paramters are required for this api.</br> </br>
 ***All the following parameters is sent as query string parameters***. </br>
